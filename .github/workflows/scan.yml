@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'amazon/aws-lambda-python:3.10.2025.03.19.12-x86_64'
+          default: 'flink:scala_2.12-java17'
 
 # env:
 #   REGISTRY: ghcr.io
